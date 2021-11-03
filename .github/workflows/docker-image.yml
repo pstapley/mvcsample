@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag pstapley/mvcsample:$(date +%s)
     - name: Docker Push
-      run: docker push pstapley/mvcsample:$(date +%s)
+      run: docker push pstapley/mvcSample
