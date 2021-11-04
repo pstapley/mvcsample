@@ -1,6 +1,7 @@
 name: Issue
 on:
   issues:
+    types: [opened]
 jobs:
   issue_notify:
     runs-on: ubuntu-latest
